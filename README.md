@@ -1,2 +1,2 @@
-This is a survey sample page
-URL to view this page: https://devenol.github.io/survey-page/
+This is a survey sample page,
+visit this URL to view the page: https://devenol.github.io/survey-page/
