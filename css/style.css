@@ -203,17 +203,13 @@ form {
 /* custom checkbox and radio */
 .custom-check, .custom-radio {
     position: inherit;
-    margin-bottom: 0.2em;
-    margin-right: 0.75em;
-    height: 16px;
-    width: 16px;
+    display: inline-block;
+    margin-bottom: 0.1em;
+    margin-right: 0.625em;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
     background-color: var(--black);
     border: 1px solid var(--blue);
-}
-
-/* custom radio button */
-.custom-radio {
-    border-radius: 50%;
 }
 
 input:checked ~ .custom-check,
@@ -237,11 +233,19 @@ input:checked ~ .custom-radio:after {
 /* Style the checkmark/indicator */
 .custom-check:after,
 .custom-radio:after {
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
     border: 2px solid var(--black);  
 }
 
+/* custom radio button */
+.custom-check,
+.custom-check:after {
+    border-radius: 20%;
+}
+
+/* custom radio button */
+.custom-radio,
 .custom-radio:after {
     border-radius: 50%;
 }
